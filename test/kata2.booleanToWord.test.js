@@ -2,13 +2,9 @@ const { booleanToWord } = require("../src");
 
 describe("booleanToWord", () => {
   test("returns YES when passed true", () => {
-    expect().toBe(true);
-    expect().toBe(true);
-    expect().toBe(true);
+    expect(booleanToWord(true)).toBe("Yes");
   })
   test("returns NO when passed false", () => {
-    expect().toBe(false);
-    expect().toBe(false);
-    expect().toBe(false);
+    expect(booleanToWord(false)).toBe("No");
   })
 });
